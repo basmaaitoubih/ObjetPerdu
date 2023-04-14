@@ -30,7 +30,7 @@ public class ObjetPerdu {
      * @param localisation le telephone de ce contact
      */
     public ObjetPerdu(int categorie, Date date, String localisation){
-        if (categorie >= 0 && categorie <= CATEGORIES.length) {
+        if (categorie >= 0 && categorie <= CATEGORIES.length-1) {
             this.categorie = categorie;
         }
         this.date=date;
@@ -79,7 +79,7 @@ public class ObjetPerdu {
      * ANTECEDANT: categorie doit être une valeur entre 0 et CATEGORIES.length – 1 inclusivement
      */
     public void setCategorie(int categorie) {
-        if (categorie >= 0 && categorie <= CATEGORIES.length) {
+        if (categorie >= 0 && categorie <= CATEGORIES.length-1) {
             this.categorie = categorie;
         }
     }
@@ -122,23 +122,23 @@ public class ObjetPerdu {
    * @return true si le motCle a bien été ajouté, false sinon
    */
    public  boolean ajouterMotCle (String motCle){
-       if(motCle==null|| motCle.isEmpty()) {
-          return false;
+       int nbrElement =0;
+       boolean trouve=true ;
+       int a=0;
 
+       if(motCle==null|| motCle.isEmpty() || motCle.equalsIgnoreCase(motsCles[a]) ) {
+           trouve=false;
        }else{
-           for(int i=0; i<motsCles.length;i++) {
-               if (motCle.toLowerCase().equals(motCle)) {
-                   return false;
-               }
-           }
-        String [] nvMotsCles=new String [motsCles.length+1];
+
+           String [] nvMotsCles =new String [motsCles.length+1];
            for(int i =0;i <motsCles.length;i++){
                nvMotsCles[i]=motsCles[i];
            }
            nvMotsCles[motsCles.length]=motCle;
-            motsCles=nvMotsCles;
+           motsCles=nvMotsCles;
+           nbrElement++;
        }
-       return true ;
+       return trouve ;
    }
 
     /**
@@ -164,20 +164,22 @@ public class ObjetPerdu {
      * retourne false sinon
      */
    public boolean supprimerMotCle(String motCle){
-        for(int i=0;i<motsCles.length;i++){
-            if(motsCles[i].toLowerCase().equals(motCle)){
-                motsCles[i]=null;
+       int nbrElement=0;
+       boolean trouve=false;
 
-            }else{ //supression
-                return false;
-            }
-        }
-        for(int i=0;i<motsCles.length-1;i++){
-            motsCles[i-1]=motsCles[i];
-            //motsCles.length()-1;
-        }
-       return true  ;
+
+       for(int i=0;i<motsCles.length-1;i++){
+           if(motsCles[i].toLowerCase().equals(motCle)){
+               motsCles[i]=null;
+               motsCles[i+1]=motsCles[i];
+               nbrElement--;
+
+           }
+           trouve=true;
+       }
+       return trouve  ;
    }
+
 
     /**
      * Cette methode retourne une representation sous forme d'une chaine de caracteres de cet
