@@ -30,15 +30,14 @@ public class ObjetPerdu {
      * @param localisation le telephone de ce contact
      */
     public ObjetPerdu(int categorie, Date date, String localisation){
-        if (categorie >= 0 && categorie <= CATEGORIES.length-1) {
+        if (categorie >= 0 && categorie < CATEGORIES.length) {
             this.categorie = categorie;
         }
-        this.date=date;
-        this.localisation=localisation;
-         id=sequenceId;
-         sequenceId++;
-         String [] motsCles= new String[0];
-
+        this.date = date;
+        this.localisation = localisation;
+        id = sequenceId;
+        sequenceId++;
+        this.motsCles= new String[0];
     }
     //GETTERS
 
@@ -83,6 +82,7 @@ public class ObjetPerdu {
             this.categorie = categorie;
         }
     }
+
     /**
      * Permet de modifier la date de consignation de cet objet perdu .
      * @param date la nouvelle date de consignation de cet objet perdu .
@@ -90,12 +90,13 @@ public class ObjetPerdu {
     public void setDate (Date date) {
         this.date = date;
     }
+
     /**
      * Permet de modifier le nom de cet employe.
      * @param localisation nouveau nom pour cet employe.
      */
     public void setLocalisation (String localisation) {
-        this.localisation=localisation;
+        this.localisation = localisation;
     }
 
     //AUTRES METHODES D'INSTANCE PUBLIQUES
@@ -105,41 +106,39 @@ public class ObjetPerdu {
      * Si le tableau motsCles est vide, la chaine retournée par cette méthode sera la chaine vide.
      * @return une chaine qui contient les mots cles dans l'ordre ou ila apparaissent dans le tableau motsCles
      */
-    public String obtenirMotsCles(){
-        String chaine="";
-         if(motsCles==null || motsCles.length==0){
-             chaine="";
-         }else{
-            for (int i=0 ;i <motsCles.length;i++){
-                chaine+=motsCles[i]+"\t";
-            }
-         }
-        return chaine;
+    public String obtenirMotsCles() {
+        return String.join(" ", motsCles);
     }
-   /**
-   * Methode qui permet d’ajouter le motCle donné en paramètre dans le tableau motsCles de cet objet perdu.
-    * @param motCle  un mot cle a associer a cet objet perd
-   * @return true si le motCle a bien été ajouté, false sinon
-   */
-   public  boolean ajouterMotCle (String motCle){
-       int nbrElement =0;
-       boolean trouve=true ;
-       int a=0;
 
-       if(motCle==null|| motCle.isEmpty() || motCle.equalsIgnoreCase(motsCles[a]) ) {
-           trouve=false;
-       }else{
+    /**
+     * Methode qui permet d’ajouter le motCle donné en paramètre dans le tableau motsCles de cet objet perdu.
+        * @param motCle  un mot cle a associer a cet objet perd
+    * @return true si le motCle a bien été ajouté, false sinon
+    */
+    public boolean ajouterMotCle (String motCle) {
+        boolean videOuNull;
+        boolean trouve = false;
+        
 
-           String [] nvMotsCles =new String [motsCles.length+1];
-           for(int i =0;i <motsCles.length;i++){
-               nvMotsCles[i]=motsCles[i];
-           }
-           nvMotsCles[motsCles.length]=motCle;
-           motsCles=nvMotsCles;
-           nbrElement++;
-       }
-       return trouve ;
-   }
+        videOuNull = (motCle == null || motCle.isEmpty());
+        if (!videOuNull) {   
+            for (int i = 0; i < motsCles.length; i++) {
+                if (motCle.equalsIgnoreCase(motsCles[i])) {
+                    trouve = true;
+                }
+            }
+        }
+
+        if (!videOuNull && !trouve) {
+            String[] nvMotsCles = new String[motsCles.length + 1];
+            for (int i = 0; i < motsCles.length; i++) {
+                nvMotsCles[i] = motsCles[i];
+            }
+            nvMotsCles[motsCles.length] = motCle;
+            motsCles = nvMotsCles;
+        }
+        return !videOuNull && !trouve;
+    }
 
     /**
      * cette methode permet
@@ -147,14 +146,14 @@ public class ObjetPerdu {
      * @return retourne true si le motCle donné en paramètre est présent (sans tenir compte de la casse) dans le
      * tableau motsCles de cet objet perdu, retourne false sinon.
      */
-   public boolean estAssocieACeMotCle(String motCle){
-       for(int i=0; i<motsCles.length;i++) {
-           if (motCle.toLowerCase().equals(motCle)) {
-               return true;
-           }
-       }
-      return false;
-   }
+    public boolean estAssocieACeMotCle(String motCle){
+        for(int i=0; i<motsCles.length;i++) {
+            if (motCle.toLowerCase().equals(motCle)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
     /**
      * cette methode permet de supprimer le motCle donné en paramètre du tableau motsCles de cet objet perdu

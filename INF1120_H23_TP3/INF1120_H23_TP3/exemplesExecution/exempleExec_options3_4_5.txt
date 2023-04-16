@@ -1,0 +1,84 @@
+=========================
+GESTION DES OBJETS PERDUS
+=========================
+
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 3
+
+------------------------
+RECHERCHER PAR MOTS CLES
+------------------------
+
+** AUCUN OBJET PERDU N'EST CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 4
+
+----------------------
+RECHERCHER PAR DATE(S)
+----------------------
+
+** AUCUN OBJET PERDU N'EST CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 5
+
+------------------------
+RECHERCHER PAR CATEGORIE
+------------------------
+
+** AUCUN OBJET PERDU N'EST CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 7
+
+
+AUREVOIR !
+

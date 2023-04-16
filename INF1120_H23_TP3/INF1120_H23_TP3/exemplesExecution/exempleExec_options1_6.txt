@@ -1,0 +1,303 @@
+=========================
+GESTION DES OBJETS PERDUS
+=========================
+
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+** AUCUN OBJET PERDU N'EST CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 1
+
+------------------------
+CONSIGNER UN OBJET PERDU
+------------------------
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : 0
+
+ERREUR, entrez un numero entre 1 et 5! RECOMMENCEZ...
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : 6
+
+ERREUR, entrez un numero entre 1 et 5! RECOMMENCEZ...
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : 
+
+ERREUR, entrez un numero entre 1 et 5! RECOMMENCEZ...
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : a
+
+ERREUR, entrez un numero entre 1 et 5! RECOMMENCEZ...
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : 55
+
+ERREUR, entrez un numero entre 1 et 5! RECOMMENCEZ...
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : 5
+Date de consignation : 
+	Entrez le jour de la date : 0
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : 1.2
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : x
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : 
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : 45
+	Entrez le mois de la date : 0
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : 1.2
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : x
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : 
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : 23
+	Entrez l'annee de la date : 0
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : 1.2
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : x
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : 
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : 1899
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date de consignation : 
+	Entrez le jour de la date : 100
+	Entrez le mois de la date : 2
+	Entrez l'annee de la date : 2000
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date de consignation : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 1
+	Entrez l'annee de la date : 1800
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date de consignation : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 13
+	Entrez l'annee de la date : 2000
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date de consignation : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 1
+	Entrez l'annee de la date : 2050
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date de consignation : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 1
+	Entrez l'annee de la date : 2023
+Entrez les mots-cles decrivant l'objet a consigner : 
+
+ERREUR, la chaine doit contenir entre 2 et 50 caracteres! RECOMMENCEZ...
+Entrez les mots-cles decrivant l'objet a consigner : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ERREUR, la chaine doit contenir entre 2 et 50 caracteres! RECOMMENCEZ...
+Entrez les mots-cles decrivant l'objet a consigner : cle      usb 8    go
+Entrez la localisation de l'objet perdu consigne : 
+
+ERREUR, la chaine doit contenir entre 5 et 50 caracteres! RECOMMENCEZ...
+Entrez la localisation de l'objet perdu consigne : aaaa
+
+ERREUR, la chaine doit contenir entre 5 et 50 caracteres! RECOMMENCEZ...
+Entrez la localisation de l'objet perdu consigne : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+ERREUR, la chaine doit contenir entre 5 et 50 caracteres! RECOMMENCEZ...
+Entrez la localisation de l'objet perdu consigne : casier #45
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : cle, usb, 8, go
+CATEGORIE    : autre
+DATE         : 01/01/2023
+LOCALISATION : casier #45
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 1
+
+------------------------
+CONSIGNER UN OBJET PERDU
+------------------------
+
+CATEGORIES :
+1. bijou
+2. vetement
+3. argent / portefeuille
+4. cle(s)
+5. autre
+
+Entrez le numero de la categorie : 1
+Date de consignation : 
+	Entrez le jour de la date : 14
+	Entrez le mois de la date : 3
+	Entrez l'annee de la date : 2023
+Entrez les mots-cles decrivant l'objet a consigner : montre    homme argent    NOIR
+Entrez la localisation de l'objet perdu consigne : tiroir du haut, bureau brun
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : cle, usb, 8, go
+CATEGORIE    : autre
+DATE         : 01/01/2023
+LOCALISATION : casier #45
+
+ID           : 2
+MOTS CLES    : montre, homme, argent, NOIR
+CATEGORIE    : bijou
+DATE         : 14/03/2023
+LOCALISATION : tiroir du haut, bureau brun
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 7
+
+
+AUREVOIR !
+

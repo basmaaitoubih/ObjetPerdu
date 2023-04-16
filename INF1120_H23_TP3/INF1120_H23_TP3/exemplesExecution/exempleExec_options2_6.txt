@@ -1,0 +1,461 @@
+=========================
+GESTION DES OBJETS PERDUS
+=========================
+
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : montre, argent, cuir, noir
+CATEGORIE    : bijou
+DATE         : 04/10/2021
+LOCALISATION : casier #102
+
+ID           : 2
+MOTS CLES    : trousseau, 3, trois, cles, porte-cle, banane
+CATEGORIE    : cle(s)
+DATE         : 13/02/2019
+LOCALISATION : bureau brun tiroir du milieu
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+ID           : 4
+MOTS CLES    : costume, bain, vert, marine, rouge
+CATEGORIE    : vetement
+DATE         : 12/09/2018
+LOCALISATION : casier #145
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 0
+
+ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+Entrez le numero d'identification (id) de l'objet a rendre : 
+
+ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+Entrez le numero d'identification (id) de l'objet a rendre : x
+
+ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+Entrez le numero d'identification (id) de l'objet a rendre : 5
+
+** L'OBJET PERDU AYANT CET ID N'EST PAS CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 3
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : 
+
+ERREUR, vous devez entrer OUI ou NON! RECOMMENCEZ...
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : O
+
+ERREUR, vous devez entrer OUI ou NON! RECOMMENCEZ...
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : n
+
+ERREUR, vous devez entrer OUI ou NON! RECOMMENCEZ...
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : NoN
+
+** LA REMISE DE L'OBJET PERDU A ETE ANNULEE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : montre, argent, cuir, noir
+CATEGORIE    : bijou
+DATE         : 04/10/2021
+LOCALISATION : casier #102
+
+ID           : 2
+MOTS CLES    : trousseau, 3, trois, cles, porte-cle, banane
+CATEGORIE    : cle(s)
+DATE         : 13/02/2019
+LOCALISATION : bureau brun tiroir du milieu
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+ID           : 4
+MOTS CLES    : costume, bain, vert, marine, rouge
+CATEGORIE    : vetement
+DATE         : 12/09/2018
+LOCALISATION : casier #145
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 4
+
+ID           : 4
+MOTS CLES    : costume, bain, vert, marine, rouge
+CATEGORIE    : vetement
+DATE         : 12/09/2018
+LOCALISATION : casier #145
+
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : OUI
+
+** LA REMISE DE L'OBJET PERDU A ETE EFFECTUEE AVEC SUCCES **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : montre, argent, cuir, noir
+CATEGORIE    : bijou
+DATE         : 04/10/2021
+LOCALISATION : casier #102
+
+ID           : 2
+MOTS CLES    : trousseau, 3, trois, cles, porte-cle, banane
+CATEGORIE    : cle(s)
+DATE         : 13/02/2019
+LOCALISATION : bureau brun tiroir du milieu
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 2
+
+ID           : 2
+MOTS CLES    : trousseau, 3, trois, cles, porte-cle, banane
+CATEGORIE    : cle(s)
+DATE         : 13/02/2019
+LOCALISATION : bureau brun tiroir du milieu
+
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : oui
+
+** LA REMISE DE L'OBJET PERDU A ETE EFFECTUEE AVEC SUCCES **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : montre, argent, cuir, noir
+CATEGORIE    : bijou
+DATE         : 04/10/2021
+LOCALISATION : casier #102
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 1
+
+ID           : 1
+MOTS CLES    : montre, argent, cuir, noir
+CATEGORIE    : bijou
+DATE         : 04/10/2021
+LOCALISATION : casier #102
+
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : oui
+
+** LA REMISE DE L'OBJET PERDU A ETE EFFECTUEE AVEC SUCCES **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 2
+
+** L'OBJET PERDU AYANT CET ID N'EST PAS CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+Entrez le numero d'identification (id) de l'objet a rendre : 3
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+Voulez-vous vraiment rendre cet objet perdu (oui / non) : oui
+
+** LA REMISE DE L'OBJET PERDU A ETE EFFECTUEE AVEC SUCCES **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+** AUCUN OBJET PERDU N'EST CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 2
+
+-----------------------
+RENDRE UN OBJET RECLAME
+-----------------------
+
+** AUCUN OBJET PERDU N'EST CONSIGNE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 7
+
+
+AUREVOIR !
+

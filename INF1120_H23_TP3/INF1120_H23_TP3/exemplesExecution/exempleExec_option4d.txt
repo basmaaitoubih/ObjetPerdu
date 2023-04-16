@@ -1,0 +1,287 @@
+=========================
+GESTION DES OBJETS PERDUS
+=========================
+
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 6
+
+----------------------------------
+AFFICHER TOUS LES OBJETS CONSIGNES
+----------------------------------
+
+ID           : 1
+MOTS CLES    : montre, argent, cuir, noir
+CATEGORIE    : bijou
+DATE         : 04/10/2021
+LOCALISATION : casier #102
+
+ID           : 2
+MOTS CLES    : trousseau, 3, trois, cles, porte-cle, banane
+CATEGORIE    : cle(s)
+DATE         : 13/02/2019
+LOCALISATION : bureau brun tiroir du milieu
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+ID           : 4
+MOTS CLES    : costume, bain, vert, marine, rouge
+CATEGORIE    : vetement
+DATE         : 12/09/2018
+LOCALISATION : casier #145
+
+ID           : 5
+MOTS CLES    : manteau, hiver, noir, argent, cuir
+CATEGORIE    : vetement
+DATE         : 09/03/2018
+LOCALISATION : casier #34
+
+ID           : 6
+MOTS CLES    : portefeuille, cuir, brun, 55.45, $
+CATEGORIE    : argent / portefeuille
+DATE         : 01/01/2023
+LOCALISATION : armoire rouge
+
+ID           : 7
+MOTS CLES    : t-shirt, noir, rouge, banane
+CATEGORIE    : vetement
+DATE         : 04/04/2019
+LOCALISATION : armoire rouge, tablette du milieu
+
+ID           : 8
+MOTS CLES    : cle, usb, noir, 2, Go
+CATEGORIE    : autre
+DATE         : 10/08/2015
+LOCALISATION : tiroir du bureau vert
+
+ID           : 9
+MOTS CLES    : bague, rose, plastique
+CATEGORIE    : bijou
+DATE         : 07/02/2016
+LOCALISATION : casier #2
+
+ID           : 10
+MOTS CLES    : foulard, rouge
+CATEGORIE    : vetement
+DATE         : 09/03/2018
+LOCALISATION : casier #54
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 4
+
+----------------------
+RECHERCHER PAR DATE(S)
+----------------------
+
+Specifier une (d)ate ou une (p)eriode : 
+
+ERREUR, entrez le caracere D ou P! RECOMMENCEZ...
+Specifier une (d)ate ou une (p)eriode : 1
+
+ERREUR, entrez le caracere D ou P! RECOMMENCEZ...
+Specifier une (d)ate ou une (p)eriode : dd
+
+ERREUR, entrez le caracere D ou P! RECOMMENCEZ...
+Specifier une (d)ate ou une (p)eriode : pp
+
+ERREUR, entrez le caracere D ou P! RECOMMENCEZ...
+Specifier une (d)ate ou une (p)eriode : d
+
+Date : 
+	Entrez le jour de la date : 0
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : 1.2
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : x
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : 
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le jour de la date : 45
+	Entrez le mois de la date : 0
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : 1.2
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : x
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : 
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez le mois de la date : 23
+	Entrez l'annee de la date : 0
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : 1.2
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : x
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : 
+
+	ERREUR, entrez un entier strictement positif! RECOMMENCEZ...
+	Entrez l'annee de la date : 1899
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date : 
+	Entrez le jour de la date : 100
+	Entrez le mois de la date : 2
+	Entrez l'annee de la date : 2000
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 1
+	Entrez l'annee de la date : 1800
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 13
+	Entrez l'annee de la date : 2000
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date : 
+	Entrez le jour de la date : 1
+	Entrez le mois de la date : 1
+	Entrez l'annee de la date : 2050
+
+ERREUR, date invalide! RECOMMENCEZ...
+
+Date : 
+	Entrez le jour de la date : 9
+	Entrez le mois de la date : 3
+	Entrez l'annee de la date : 2018
+
+RESULTAT(S) DE LA RECHERCHE :
+
+ID           : 5
+MOTS CLES    : manteau, hiver, noir, argent, cuir
+CATEGORIE    : vetement
+DATE         : 09/03/2018
+LOCALISATION : casier #34
+
+ID           : 10
+MOTS CLES    : foulard, rouge
+CATEGORIE    : vetement
+DATE         : 09/03/2018
+LOCALISATION : casier #54
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 4
+
+----------------------
+RECHERCHER PAR DATE(S)
+----------------------
+
+Specifier une (d)ate ou une (p)eriode : D
+
+Date : 
+	Entrez le jour de la date : 22
+	Entrez le mois de la date : 7
+	Entrez l'annee de la date : 2014
+
+RESULTAT(S) DE LA RECHERCHE :
+
+ID           : 3
+MOTS CLES    : carte, etudiante, etudiant, Simon, Levesque
+CATEGORIE    : autre
+DATE         : 22/07/2014
+LOCALISATION : armoire grise, tablette du haut
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 4
+
+----------------------
+RECHERCHER PAR DATE(S)
+----------------------
+
+Specifier une (d)ate ou une (p)eriode : d
+
+Date : 
+	Entrez le jour de la date : 5
+	Entrez le mois de la date : 11
+	Entrez l'annee de la date : 2021
+
+RESULTAT(S) DE LA RECHERCHE :
+
+** AUCUN OBJET TROUVE **
+
+Appuyez sur <ENTREE> pour revenir au menu... 
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 7
+
+
+AUREVOIR !
+

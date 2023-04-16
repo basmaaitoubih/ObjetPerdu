@@ -1,0 +1,36 @@
+=========================
+GESTION DES OBJETS PERDUS
+=========================
+
+
+----
+MENU
+----
+1. Consigner un objet perdu
+2. Rendre un objet reclame
+3. Rechercher un objet par mots cles
+4. Rechercher un objet par date(s)
+5. Rechercher un objet par categorie
+6. Afficher tous les objets consignes
+7. Quitter
+
+Entrez votre choix : 0
+
+ERREUR, vous devez entrer un choix entre 1 et 7! RECOMMENCEZ...
+Entrez votre choix : 8
+
+ERREUR, vous devez entrer un choix entre 1 et 7! RECOMMENCEZ...
+Entrez votre choix : 
+
+ERREUR, vous devez entrer un choix entre 1 et 7! RECOMMENCEZ...
+Entrez votre choix : a
+
+ERREUR, vous devez entrer un choix entre 1 et 7! RECOMMENCEZ...
+Entrez votre choix : 11
+
+ERREUR, vous devez entrer un choix entre 1 et 7! RECOMMENCEZ...
+Entrez votre choix : 7
+
+
+AUREVOIR !
+
