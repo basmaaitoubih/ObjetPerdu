@@ -164,18 +164,29 @@ public class ObjetPerdu {
      * retourne false sinon
      */
    public boolean supprimerMotCle(String motCle){
-       int nbrElement=0;
-       boolean trouve=false;
 
+       boolean trouve = false;
+       int j = 0;
 
-       for(int i=0;i<motsCles.length-1;i++){
-           if(motsCles[i].toLowerCase().equals(motCle)){
-               motsCles[i]=null;
-               motsCles[i+1]=motsCles[i];
-               nbrElement--;
+       for (int i = 0; i < motsCles.length; i++) {
+           if (motCle.equalsIgnoreCase(motsCles[i])) {
+               trouve = true;
+               j = i;
+           }
+       }
+       if (trouve) {
+           String[] nvMotsCles = new String[motsCles.length - 1];
+           for (int i = 0; i < motsCles.length; i++) {
+               if (j != i) {
+                   if (j > i) {
+                       nvMotsCles[i] = motsCles[i];
+                   } else {
+                       nvMotsCles[i - 1] = motsCles[i];
+                   }
+               }
 
            }
-           trouve=true;
+           motsCles = nvMotsCles;
        }
        return trouve  ;
    }
