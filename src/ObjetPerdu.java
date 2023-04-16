@@ -37,7 +37,7 @@ public class ObjetPerdu {
         this.localisation = localisation;
         id = sequenceId;
         sequenceId++;
-        this.motsCles= new String[0];
+        this.motsCles = new String[0];
     }
     //GETTERS
 
