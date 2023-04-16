@@ -147,12 +147,13 @@ public class ObjetPerdu {
      * tableau motsCles de cet objet perdu, retourne false sinon.
      */
     public boolean estAssocieACeMotCle(String motCle){
-        for(int i=0; i<motsCles.length;i++) {
-            if (motCle.toLowerCase().equals(motCle)) {
-                return true;
+        boolean trouve = false;
+        for (int i = 0; i < motsCles.length; i++) {
+            if (motCle.equalsIgnoreCase(motsCles[i])) {
+                trouve = true;
             }
         }
-        return false;
+        return trouve;
     }
 
     /**
