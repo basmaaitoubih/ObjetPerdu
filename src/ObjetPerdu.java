@@ -146,7 +146,7 @@ public class ObjetPerdu {
      * @return retourne true si le motCle donné en paramètre est présent (sans tenir compte de la casse) dans le
      * tableau motsCles de cet objet perdu, retourne false sinon.
      */
-    public boolean estAssocieACeMotCle(String motCle){
+    public boolean estAssocieACeMotCle(String motCle) {
         boolean trouve = false;
         for (int i = 0; i < motsCles.length; i++) {
             if (motCle.equalsIgnoreCase(motsCles[i])) {
@@ -163,33 +163,29 @@ public class ObjetPerdu {
      * @return true si le motCle donné en paramètre a été retiré du tableau motsCles de cet objet perdu,
      * retourne false sinon
      */
-   public boolean supprimerMotCle(String motCle){
+    public boolean supprimerMotCle(String motCle) {
+        boolean trouve = false;
+        int j = 0;
 
-       boolean trouve = false;
-       int j = 0;
-
-       for (int i = 0; i < motsCles.length; i++) {
-           if (motCle.equalsIgnoreCase(motsCles[i])) {
-               trouve = true;
-               j = i;
-           }
-       }
-       if (trouve) {
-           String[] nvMotsCles = new String[motsCles.length - 1];
-           for (int i = 0; i < motsCles.length; i++) {
-               if (j != i) {
-                   if (j > i) {
-                       nvMotsCles[i] = motsCles[i];
-                   } else {
-                       nvMotsCles[i - 1] = motsCles[i];
-                   }
-               }
-
-           }
-           motsCles = nvMotsCles;
-       }
-       return trouve  ;
-   }
+        for (int i = 0; i < motsCles.length; i++) {
+            if (motCle.equalsIgnoreCase(motsCles[i])) {
+                trouve = true;
+                j = i;
+            }
+        }
+        if (trouve) {
+            String[] nvMotsCles = new String[motsCles.length - 1];
+            for (int i = 0; i < motsCles.length; i++) {
+                if (i < j) {
+                    nvMotsCles[i] = motsCles[i];
+                } else if (i > j) {
+                    nvMotsCles[i - 1] = motsCles[i];
+                }
+            }
+            motsCles = nvMotsCles;
+        }
+        return trouve;
+    }
 
 
     /**
@@ -224,17 +220,16 @@ public class ObjetPerdu {
      * Methode qui permet d'obtenir la valeur de l'attribut sequenceId.
      * @return la valeur de l’attribut de classe sequenceId .
      */
-    public static int getSequenceId(){
-
+    public static int getSequenceId() {
         return sequenceId;
     }
 
     /**
      * Cette methode permet de modifier la valeur de l'attribut de classe sequenceId  par la valeur donnée en paramètre.
-     * @param valeur la  nouvelle valeur de sequenceId.
+     * @param valeur la nouvelle valeur de sequenceId.
      */
-    public static void setSequenceId( int valeur){
-            sequenceId=valeur;
+    public static void setSequenceId(int valeur) {
+        sequenceId = valeur;
     }
 
 
