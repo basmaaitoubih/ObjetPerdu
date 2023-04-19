@@ -10,7 +10,7 @@ public class ObjetPerdu {
     public static final String[] CATEGORIES = {"bijou", "vetement", "argent / portefeuille", "cle(s)", "autre"};
 
     //ATTRIBUTS DE CLASSE
-    public static int sequenceId ;
+    public static int sequenceId = 1;
 
     //ATTRIBUTS (VARIABLES D'INSTANCE)
     private int id ;
@@ -23,11 +23,11 @@ public class ObjetPerdu {
     //CONSTRUCTEURS
 
     /**
-     *  Constructeur qui initialise les attributs:nom,prenom,tel,adresse par les valeurs passés en paramère
-     * @param categorie le nom de ce contact
+     *  Constructeur qui initialise les attributs: categorie, date, localisation par les valeurs passés en paramère
+     * @param categorie la categorie de l'objet perdu
      *  ANTECEDANT :: doit être une valeur entre 0 et CATEGORIES.length – 1 inclusivement
-     * @param date le prenom de ce contact
-     * @param localisation le telephone de ce contact
+     * @param date date de consignation de l'objet perdu
+     * @param localisation l'endroit où l'on range l'objet perdu consigné
      */
     public ObjetPerdu(int categorie, Date date, String localisation){
         if (categorie >= 0 && categorie < CATEGORIES.length) {
@@ -50,8 +50,8 @@ public class ObjetPerdu {
     }
 
     /**
-     * Permet d'obtenir la categorie à cet objet perdu.
-     * @return la categorie à cet objet perdu.
+     * Permet d'obtenir la categorie de cet objet perdu.
+     * @return la categorie de cet objet perdu.
      */
     public int getCategorie(){
         return categorie;
@@ -73,7 +73,7 @@ public class ObjetPerdu {
 
     //SETTERS
     /**
-     * Permet de modifier la categorie  à cet objet perdu.
+     * Permet de modifier la categorie de cet objet perdu.
      * @param categorie nouvelle categorie.
      * ANTECEDANT: categorie doit être une valeur entre 0 et CATEGORIES.length – 1 inclusivement
      */
@@ -104,7 +104,7 @@ public class ObjetPerdu {
      * Methode qui permet d'obtenir une chaine de caractères contenant tous les mots clés associés à cet objet perdu (stockés dans
      * l’attribut motsCles)
      * Si le tableau motsCles est vide, la chaine retournée par cette méthode sera la chaine vide.
-     * @return une chaine qui contient les mots cles dans l'ordre ou ila apparaissent dans le tableau motsCles
+     * @return une chaine qui contient les mots cles dans l'ordre ou ils apparaissent dans le tableau motsCles
      */
     public String obtenirMotsCles() {
         return String.join(" ", motsCles);
@@ -231,15 +231,5 @@ public class ObjetPerdu {
     public static void setSequenceId(int valeur) {
         sequenceId = valeur;
     }
-
-
-
-
-
-
-
-
-
-
 
 }
